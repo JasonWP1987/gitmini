@@ -1,7 +1,7 @@
 <!-- index.wxml -->
 
 <button type="primary" bindtap="getInfo" >GET</button>
-<!-- <button type="primary" bindtap="postInfo" >POST</button> -->
+<button type="primary" bindtap="postInfo" >POST</button>
 
 <input value="{{msg}}" bindinput="inputHandler"> </input>
 
