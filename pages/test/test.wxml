@@ -1,0 +1,3 @@
+<!--pages/test/test.wxml-->
+<view>count值为: {{count}}</view>
+<button type="warn" bindtap="countAdd">+1</button>

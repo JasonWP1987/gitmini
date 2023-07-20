@@ -1,0 +1,8 @@
+// tools.wxs 文件
+function toLower(str) {
+  return str.toLowerCase()
+}
+
+module.exports = {
+  toLower: toLower
+}

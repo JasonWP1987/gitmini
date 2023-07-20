@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/list/list",
+    "pages/test/test"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#9370DB",
+    "navigationBarTitleText": "Test Program",
+    "navigationBarTextStyle":"black",
+    "backgroundColor": "#efefef",
+    "onReachBottomDistance": 50
+  },
+  "tabBar":{
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "text":"首页",
+        "iconPath": "/images/home.png",
+        "selectedIconPath": "/images/home-active.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text":"小红",
+        "iconPath": "/images/message.png",
+        "selectedIconPath": "/images/message-active.png"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text":"测试",
+        "iconPath": "/images/contact.png",
+        "selectedIconPath": "/images/contact-active.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

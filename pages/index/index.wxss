@@ -1,0 +1,14 @@
+/**index.wxss**/
+/* @import"/common/common.wxss"; */
+input{
+  border: 1px solid #eee;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+.box{
+  margin-top: 200rpx;
+  height: 1000rpx;
+  background-color: skyblue;
+}

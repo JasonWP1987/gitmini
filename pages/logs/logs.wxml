@@ -1,0 +1,6 @@
+<!--logs.wxml-->
+
+<text>LOG PAGE</text>
+<navigator open-type="navigateBack" >后退</navigator>
+<button bindtap="gotoXiaohong">Goto Xiaohong</button>
+<button bindtap="goBack"> Go Back</button>

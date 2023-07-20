@@ -1,0 +1,30 @@
+<!-- index.wxml -->
+
+<button type="primary" bindtap="getInfo" >GET</button>
+<!-- <button type="primary" bindtap="postInfo" >POST</button> -->
+
+<input value="{{msg}}" bindinput="inputHandler"> </input>
+
+<view wx:for="{{arr1}}" wx:key="index">
+  索引是: {{index}}, item项是: {{item}}
+</view>
+
+<!-- <view>~~~~~~~~~~~~~~~~</view>
+<view wx:for="{{userList}}" wx:key="id" class="username">{{item.name}}</view> -->
+
+<navigator url="/pages/list/list" open-type="switchTab">导航到小红</navigator>
+<button bindtap="gotoLog">看日志</button>
+
+<navigator url="/pages/logs/logs?name=xiaohong&age=20" style="background-color: pink;">跳转到log页面</navigator>
+
+<view>{{m1.toUpper(username)}}</view>
+<view>{{m2.toLower(country)}}</view>
+
+<wxs src="../../utils/tool.wxs" module="m2"></wxs>
+
+<wxs module="m1">
+  // 文本转为大写
+  module.exports.toUpper = function(str) {
+    return str.toUpperCase()
+  }
+</wxs>
